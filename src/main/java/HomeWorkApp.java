@@ -46,7 +46,7 @@ public class HomeWorkApp {
     }
 
     static void printColor(){
-        int varValue = 120;
+        int varValue = -20;
 
         if (varValue <= 0){
             System.out.println("Красный");
@@ -58,7 +58,7 @@ public class HomeWorkApp {
     }
 
     static void compareNumbers(){
-        int varA = 20;
+        int varA = 30;
         int varB = 20;
         if (varA > varB){
             System.out.println("a > b");
