@@ -19,7 +19,7 @@
 //        то необходимо вывести в консоль сообщение “a >= b”, в противном случае “a < b”;
 
 
-public class HomeWorkApp {
+public class Lesson1 {
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
@@ -68,4 +68,6 @@ public class HomeWorkApp {
             System.out.println("a = b");
         }
     }
+
+
 }
