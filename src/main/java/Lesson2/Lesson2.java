@@ -49,7 +49,6 @@ public class Lesson2 {
         } else {
             System.out.println("Год не високосный");
         }
-        
         return false;
     }
 }
