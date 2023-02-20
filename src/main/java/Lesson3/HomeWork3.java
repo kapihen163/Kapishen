@@ -125,6 +125,7 @@ public class HomeWork3 {
             if ( left == right){
                 return true;
             }
+            
         } return false;
     }
 }
