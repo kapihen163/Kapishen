@@ -127,7 +127,7 @@ public class TicTacToe {
             if (toRight || toLeft) return true;
 
         }
-        
+
         //Проверка на выигрыш по горизонтали и вертикали
 
         for (int i = 0; i < size; i++) {
@@ -141,7 +141,6 @@ public class TicTacToe {
                 if (cols || rows) return true;
             }
 //            return false;
-
         }
         return false;
     }
