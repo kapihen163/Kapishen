@@ -92,7 +92,7 @@ public class HomeWork3 {
 
 //    6. * Задать одномерный массив и найти в нем минимальный и максимальный элементы ;
 
-    static void array(){
+    static void array() {
         Integer[] array = {1, 5, 3, 2, -11, 4, 5, 2, -4, 8, 9, 1, 20, 50};
         List<Integer> ints = Arrays.asList(array);
 
@@ -103,7 +103,7 @@ public class HomeWork3 {
 //    7. ** Написать метод, в который передается не пустой одномерный целочисленный массив,
 //    метод должен вернуть true, если в массиве есть место, в котором сумма левой и правой части массива равны.
 
-    static boolean arraySumm(){
+    static boolean arraySumm() {
         int[] array = {20, 5, 6, 30, 1};
 
 //        int[] array = new int[15];
@@ -117,16 +117,17 @@ public class HomeWork3 {
         int left = 0;
         int right = 0;
 
-        for (int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             left += array[i];
-            for (int j = i + 1; j < array.length; j++ ){
+            for (int j = i + 1; j < array.length; j++) {
                 right += array[j];
             }
-            if ( left == right){
+            if (left == right) {
                 return true;
             }
-            
-        } return false;
+
+        }
+        return false;
     }
 }
 
