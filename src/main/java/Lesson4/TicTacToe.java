@@ -146,6 +146,7 @@ public class TicTacToe {
         return false;
     }
 
+    
     private static boolean checkEnd(char symbol) {
 //        победа
         if (checkWin(symbol)){
