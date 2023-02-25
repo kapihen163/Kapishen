@@ -96,8 +96,6 @@ public class TicTacToe {
         }
     }
 
-
-
     private static boolean checkDraw() {
 
 //        for (char[] chars : MAP) {
@@ -105,7 +103,6 @@ public class TicTacToe {
 //                if (symbol == DOT_EMPTY) {
 //                    return false;
 //                }
-
 //            }
 //        }
 //        return true;
@@ -145,8 +142,8 @@ public class TicTacToe {
 
     private static boolean checkEnd(char symbol) {
 //        победа
-        if (checkWin(symbol)){
-            if (symbol == DOT_HUMAN){
+        if (checkWin(symbol)) {
+            if (symbol == DOT_HUMAN) {
                 System.out.println("Победил человек!");
             } else {
                 System.out.println("Победил компьютер");
