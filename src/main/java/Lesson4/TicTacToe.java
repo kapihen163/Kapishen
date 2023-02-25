@@ -115,7 +115,6 @@ public class TicTacToe {
     private static boolean checkWin(char symbol) {
 
         /*Проверка на выигрыш для 2-х диагоналей*/
-
         for (int n = 0; n < size; n++) {
             boolean toRight = true;
             boolean toLeft = true;
@@ -129,7 +128,6 @@ public class TicTacToe {
         }
 
         //Проверка на выигрыш по горизонтали и вертикали
-
         for (int i = 0; i < size; i++) {
             boolean cols = true;
             boolean rows = true;
