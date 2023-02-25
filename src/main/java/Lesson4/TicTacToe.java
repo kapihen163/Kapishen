@@ -124,7 +124,8 @@ public class TicTacToe {
                 toRight = toRight & (MAP[i][i] == symbol);
                 toLeft = toLeft & (MAP[size - i - 1][i] == symbol);
             }
-            return toRight || toLeft;
+            if (toRight || toLeft) return true;
+
         }
 
 
@@ -140,13 +141,12 @@ public class TicTacToe {
                 }
                 if (cols || rows) return true;
             }
-            return false;
+//            return false;
 
         }
         return false;
     }
 
-    
     private static boolean checkEnd(char symbol) {
 //        победа
         if (checkWin(symbol)){
