@@ -1,4 +1,4 @@
-//
+package Lesson1;//
 //        1. Создать пустой проект в IntelliJ IDEA, создать класс HomeWorkApp, и прописать в нем метод main().
 //        2. Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова:
 //        Orange, Banana, Apple.
@@ -19,7 +19,7 @@
 //        то необходимо вывести в консоль сообщение “a >= b”, в противном случае “a < b”;
 
 
-public class HomeWorkApp {
+public class Lesson1 {
     public static void main(String[] args) {
         printThreeWords();
         checkSumSign();
@@ -33,39 +33,41 @@ public class HomeWorkApp {
         System.out.println("Apple");
     }
 
-    static void checkSumSign(){
+    static void checkSumSign() {
         int varA = 5;
         int varB = -10;
         int result = varA + varB;
 
-        if (result >= 0){
+        if (result >= 0) {
             System.out.println("Сумма положительная");
         } else {
             System.out.println("Сумма отрицательная");
         }
     }
 
-    static void printColor(){
-        int varValue = 120;
+    static void printColor() {
+        int varValue = -20;
 
-        if (varValue <= 0){
+        if (varValue <= 0) {
             System.out.println("Красный");
-        } else if (varValue > 0 & varValue <=100) {
+        } else if (varValue > 0 & varValue <= 100) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");
         }
     }
 
-    static void compareNumbers(){
-        int varA = 20;
+    static void compareNumbers() {
+        int varA = 30;
         int varB = 20;
-        if (varA > varB){
+        if (varA > varB) {
             System.out.println("a > b");
-        } else if (varA < varB){
+        } else if (varA < varB) {
             System.out.println("a < b");
         } else {
             System.out.println("a = b");
         }
     }
+
+
 }
