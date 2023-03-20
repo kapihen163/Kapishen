@@ -1,7 +1,7 @@
-package org.example;
+package Lesson8;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new ApplicationForm("Calculator v1.0 beta");
     }
 }
