@@ -20,7 +20,7 @@ public class Main {
                 new Cat("Kay", 10),
                 new Cat("Mila", 15)
         };
-        
+
         System.out.println(plate);
 
         for (Cat cat1 : cat) {
