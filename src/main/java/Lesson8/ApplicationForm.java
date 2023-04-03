@@ -44,9 +44,8 @@ public class ApplicationForm extends JFrame {
         clear.addActionListener(new ClearFieldButtonListner(inputField));
         menuFile.add(clear);
 
-        menuFile.add(new JMenuItem("Exit"));
         menuBar.add(menuFile);
-
+        menuFile.add(new JMenuItem("Exit"));
         menuBar.add(new JMenuItem("Help"));
         menuBar.add(new JMenuItem("About"));
 
@@ -74,7 +73,7 @@ public class ApplicationForm extends JFrame {
 
         inputField.setFont(new Font("Arial", Font.PLAIN, 25));
         inputField.setMargin(new Insets(8,0,8,0));
-        inputField.setBackground(new Color(238, 210, 73));
+        inputField.setBackground(new Color(73, 238, 194));
 
 //        inputField.setText("1+2\3");
 
@@ -106,9 +105,9 @@ public class ApplicationForm extends JFrame {
         }
 
         JButton calc = new OperatorJButtton("=");
-
+//        calc.addActionListener(new ClearFieldButtonListner(inputField));
         digitsPanel.add(calc);
-        calc.setEnabled(false);
+//        calc.setEnabled(false);
 
         JButton clear = new OperatorJButtton("C");
         clear.addActionListener(new ClearFieldButtonListner(inputField));
